@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-image: url(bg.jpg);
+}
+
+.container{
+  display:flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+}
+
+img {
+  border-radius: 40px;
+}
+
+button {
+  margin-top: 30px;
+  width: 600px;
+  padding-top: 4px;
+  padding-bottom: 10px;
+  font-size:60px;
+  background-color: rgb(238, 153, 96);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  border: 1px black
+}
